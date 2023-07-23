@@ -1,0 +1,731 @@
+body {
+    width: 100%;
+    height: auto;
+    margin: 0%;
+    padding: 0%;
+}
+
+.firstsection {
+    width: 100%;
+    height: 135px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* align-items: center; */
+
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.zilomphoto {
+    width: 20%;
+    height: auto;
+}
+
+.zilomlogo {
+    width: 130px;
+    height: auto;
+    padding-left: 50px;
+}
+
+.icon {
+    width: 170%;
+    height: auto;
+
+}
+
+
+.callicon {
+    width: 240px;
+    height: 70px;
+    display: flex;
+
+
+}
+
+.call {
+    width: auto;
+    height: auto;
+    margin: 0%;
+    padding: 0%;
+}
+
+.callicon img {
+    width: 40px;
+    height: 35px;
+    padding: 11%;
+    padding-left: 50px;
+    /* padding-left: 20px; */
+    /* padding-left: 100px; */
+    /* margin-left: 50%; */
+
+}
+
+.callagent {
+    width: 103px;
+    height: auto;
+    padding-left: 5px;
+    margin: 0%;
+    padding-left: 10px;
+    padding-top: 12px;
+
+}
+
+.callagent h4 {
+    width: 100px;
+    height: auto;
+    margin: 0%;
+    padding: 0%;
+}
+
+.callagent p {
+    width: 100px;
+    height: auto;
+    margin: 0%;
+    padding: 0%;
+    cursor: pointer;
+}
+
+.line {
+    width: 1px;
+    height: 75px;
+    background-color: grey;
+
+}
+
+.mainthree {
+    width: 1050px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo {
+    width: 56px;
+    height: auto;
+    justify-content: space-between;
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+
+
+}
+
+.photo img {
+    width: 20px;
+    height: 20px;
+    padding: 12px;
+    background-color: rgb(221, 220, 220);
+    border-radius: 50px;
+    cursor: pointer;
+
+
+}
+
+.photo img:hover {
+    background-color: rgb(98, 98, 235);
+
+}
+
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    pointer-events: none;
+    right: 0;
+    height: 5%;
+    width: 5%;
+    opacity: 0;
+    transition: .3s ease;
+
+}
+
+.blueicon {
+    width: 56px;
+    height: auto;
+}
+
+.blueicon:hover .overlay {
+    opacity: 1;
+
+}
+
+.bluetwiter {
+    width: 56px;
+    height: auto;
+    background-color: rgb(221, 220, 220);
+    border-radius: 50px;
+}
+
+.bluetwiter img {
+    width: 21px;
+    height: 21px;
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 68px;
+    left: 681px;
+    background-color: rgb(98, 98, 235);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 50px;
+}
+
+.bluefb img {
+    width: 21px;
+    height: 21px;
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 189%;
+    left: 959%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 50px;
+}
+
+.bluePintrest img {
+    width: 21px;
+    height: 21px;
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 189%;
+    left: 1032%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 50px;
+}
+
+.blueinsta img {
+    width: 21px;
+    height: 21px;
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 189%;
+    left: 1105%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 50px;
+}
+
+.blueshopping img {
+    width: 32px;
+    height: 31px;
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 468%;
+    left: 1704%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* secondsection */
+
+
+.sec2 {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    /* background: chartreuse; */
+    margin: 0;
+    padding: 0
+}
+
+.menubar {
+    width: 50%;
+    height: auto;
+
+}
+
+.menubar ul {
+    display: flex;
+    list-style: none;
+    color: grey;
+}
+
+.menubar ul li {
+    width: 120px;
+    font-size: 20px;
+}
+
+.menubar ul li a {
+    text-decoration: none;
+    color: grey;
+}
+
+.menubar ul li a:hover {
+    color: blue;
+}
+
+.submenu {
+    display: none;
+}
+
+.menubar ul li:hover .submenu {
+    display: block;
+    position: absolute;
+    background: rgb(216, 213, 213);
+    border-radius: 0px 0px 10px 10px;
+    margin-top: 0px;
+    margin-left: -20px;
+}
+
+.menubar ul li:hover .submenu ul {
+    display: block;
+    margin: 10px;
+
+}
+
+.menubar ul li:hover .submenu ul li {
+
+    width: 145px;
+    height: 20px;
+    padding: 8px;
+
+
+}
+
+.nestedsubmenu {
+    display: none;
+
+}
+
+.submenu ul li:hover .nestedsubmenu {
+    display: block;
+    position: absolute;
+    background: rgb(212, 209, 209);
+    border-radius: 0px 0px 10px 10px;
+    margin-top: 0px;
+    margin-left: 30px;
+}
+
+.submenu ul li:hover .nestedsubmenu ul {
+    display: block;
+    margin: 20px;
+
+}
+
+.submenu ul li:hover .nestedsubmenu li {
+    width: 50px;
+    height: 20px;
+    /* padding: 10px; */
+    text-align: center;
+}
+
+
+
+
+
+.login {
+    width: 30%;
+    height: 70px;
+}
+
+.login ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+
+}
+
+.login a {
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(104, 103, 103);
+}
+
+.login a:hover {
+    color: rgb(4, 4, 196);
+}
+
+.shopping img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.search {
+    width: 10%;
+    height: 40px;
+    position: relative;
+}
+
+.search p {
+    position: relative;
+    z-index: 4;
+    pointer-events: none;
+}
+
+.search>button {
+    width: 100%;
+    height: 40px;
+    display: block;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(31, 30, 30);
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.overlay-2 {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+/* pointer-events: none; */
+.overlay-2 button {
+    width: 100%;
+    height: 40px;
+    display: block;
+    border: none;
+    border-radius: 10px;
+    background-color: #0f1ddd;
+}
+
+.search:hover .overlay-2 {
+    top: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.w3-modal {
+    z-index: 3;
+    display: none;
+    padding-top: 100px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+.darkpart {
+
+    margin-left: 1020px;
+    font-size: 30px;
+    color: whitesmoke;
+
+
+}
+
+::placeholder {
+    color: black;
+    font-size: 20px;
+    text-align: start;
+}
+
+.searchbar {
+    width: 90%;
+    margin-left: 130px;
+    height: 50px;
+    margin-top: 78px;
+
+
+
+}
+
+.Search-item {
+    width: 57%;
+    height: 20px;
+    font-size: 30px;
+    color: black;
+    background-color: white;
+    padding: 33px;
+    margin-top: 75px;
+    margin-left: 150px;
+    border: none;
+
+
+
+}
+
+.searchlogo {
+    width: 77px;
+    background-color: rgb(68, 68, 247);
+    height: 66px;
+    margin-left: 947px;
+    margin-top: 25px;
+}
+
+.searchlogo img {
+    width: 45px;
+    /* height: 50px; */
+    margin-top: 14px;
+    margin-left: 13px;
+    height: auto;
+}
+
+.searchlogo:hover {
+    background-color: rgb(7, 7, 7);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section3 */
+.thirdsection {
+    width: 100%;
+    height: 339px;
+    padding: 0px;
+    background-color: grey;
+    margin: 0px;
+    padding: 0px;
+}
+
+.thirdsection h1 {
+    color: rgb(253, 253, 253);
+    font-size: 50px;
+    font-family: sans-serif;
+
+    margin-top: -243px;
+    margin-left: 100px;
+}
+
+.thirdsection p {
+    color: rgb(8, 8, 8);
+    font-size: 100px;
+    font-size: 198px;
+    font-family: sans-serif;
+    margin-left: 10%;
+    margin-top: 0px;
+}
+
+.aboutul a {
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(109, 106, 106);
+    cursor: pointer;
+    justify-content: space-around;
+    /* padding: 12px; */
+    margin-top: 0px;
+    margin-left: 0;
+}
+
+.aboutul {
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(109, 106, 106);
+    cursor: pointer;
+    justify-content: space-around;
+    padding: 12px;
+    margin-top: 0px;
+    margin-left: 0;
+}
+
+.aboutul li:hover {
+    color: rgb(101, 70, 214);
+
+}
+
+.twoul {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(182, 178, 178);
+    margin-left: 1050px;
+    border-radius: 10px 10px 0px 0px;
+    position: relative;
+    top: -50px;
+    left: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+footer {
+    width: 100%;
+    height: 470px;
+    background-color: rgb(51, 49, 49);
+}
+
+.fmain {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.fmain h2 {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.fmain p {
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(105, 103, 103);
+    cursor: pointer;
+}
+
+.fmain p:hover {
+
+    color: rgb(243, 172, 40);
+}
+
+.last {
+    text-align: center;
+    color: rgb(180, 177, 177);
+    font-size: 15px;
+}
+
+.Active {
+    color: blue;
+    margin-left: 80px;
+
+}
